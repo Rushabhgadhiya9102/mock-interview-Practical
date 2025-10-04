@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.title{
+    margin: 10px 0px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+#timerdisplay{
+    background: rgb(209, 209, 255);
+    width: 25%;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#question{
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#options button{
+    background: lightblue;
+    border: 0;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#options {
+    margin-bottom: 10px;
+}
+
+section{
+    border: 1px solid #000;;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#nextbtn, #resultbtn {
+    background: green;
+    color: white;
+    border: 0;
+    padding: 8px ;
+    border-radius: 3px;
+}
